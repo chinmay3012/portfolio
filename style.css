@@ -79,6 +79,3 @@ h1{
 .links:hover{
     color: white;
 }
-#header{
-    background-color: var(--color);
-}
