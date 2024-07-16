@@ -2,12 +2,26 @@
     <head>
         <title>Chinmay's Portfolio</title>
         <style>
+            :root{
+                --color:#8D493A;
+            }
             @import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
             </style>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="center">
+        <div id="header" style="border-radius: 2%">
+            <ul style="display: flex;height: 100px;; list-style: none; padding:10px; font-size: larger; font-weight: bold;">
+                <li style="color:white;font-size: 30px;margin-top:30px;"><a style="color:white;text-decoration:none;" href="#about">About</a></li>
+                <li style="color:white;margin-left: 30px;font-size: 30px;margin-top:30px;"><a style="color:white;text-decoration:none;" href="#skills">Skills</a></li>
+                <li style="color:white;margin-left: 30px;font-size: 30px;margin-top:30px;"><a style="color:white;text-decoration:none;" href="#certificate">Certificates</a></li>
+                <li style="color:white;margin-left: 30px;font-size: 30px;margin-top:30px;"><a style="color:white;text-decoration:none;" href="#contact">Contact</a></li>
+                <li style="color:white;margin-left: 30px;font-size: 30px;margin-top:30px;"><a style="color:white;text-decoration:none;" href="#projects">Projects</a></li>
+
+            </ul>
+            <br>
+        </div>
+        <div id="about" class="center">
             <img class="profile" src ="chinmay.png"/>
             <p id="heading">Hi! Welcome to <br>Chinmay's Portfolio</p>
             <p style="
@@ -22,7 +36,7 @@
         </div><br>
         <hr class="hr">
 
-        <div class="about">
+        <div id=""skills class="about">
             <h2>Technical Skills</h2>
             <p>
                 <img style="margin-right: 50px;
@@ -41,7 +55,7 @@
 
         <hr class="hr">
 
-        <div class="about">
+        <div id="projects" class="about">
             <h2>Major Projects :</h2>
             <ul>
                 <li><a class="links" style="text-decoration: none;" href="https://www.linkedin.com/posts/chinmay-mehrotra-bb5648213_opensource-jpmorgan-activity-7207423858478379008--7n0?utm_source=share&utm_medium=member_desktop">Interface with a stock price data feed.</a></li>
@@ -49,7 +63,7 @@
             </ul>
         </div><br><br><hr class="hr">
 
-        <div class="about">
+        <div id="certificate" class="about">
             <h2>Certifications</h2>
             <p>
                 <ul>
